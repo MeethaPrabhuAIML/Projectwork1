@@ -4,56 +4,115 @@ The integration of a chatbot within a hostel booking system, aimed at streamlini
 
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+The Intelligent Agriculture Assistant is a smart decision-support system designed to assist farmers, researchers, and agricultural officers in analyzing soil health, recommending suitable crops, and identifying optimal fertilizers. The system leverages advanced machine learning models and SHAP-based interpretability to provide transparent, data-driven suggestions that enhance agricultural productivity and sustainability.
+The Intelligent Agriculture Assistant is developed to simplify and enhance agricultural decision-making by integrating machine learning with explainable AI. Farmers often struggle with determining soil fertility, choosing appropriate crops, or selecting optimal fertilizers due to limited technical knowledge or lack of access to expert agronomists.
+
+This project addresses these challenges by providing:
+
+A multi-model ML system (RandomForest + XGBoost) capable of predicting soil fertility, crop suitability, and fertilizer requirements.
+
+A SHAP interpretability layer that explains why each prediction was made in clear, human-understandable terms.
+
+A user-friendly Gradio interface enabling users to input soil and environmental parameters and instantly receive insights supported by visual charts and explanations.
+
+The assistant aims to promote data-driven farming practices, improve yield quality, and increase accessibility to AI-powered agronomy tools.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
-
+- SHAP-based Explainable AI — Every prediction is accompanied by a feature-impact explanation.
+- Multi-model Architecture — Separate ML models for soil fertility, crop recommendation, and fertilizer prediction.
+- User-Friendly Interface — Built using Gradio with multi-page layout and graphical visualizations.
+- High Scalability — Modular architecture allows new crops, soil types, or fertilizer databases to be added easily.
+- Fast Inference — Optimized ensemble models ensure low prediction latency.
+- Language Support — Output available in English and Tamil using a translation engine.
+- Graphical Insights — Probability distribution graphs for each ML prediction.
+- PDF Report Generation (Optional) — One-click export for results with explanations and plots.
 ## Requirements
 <!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+* Operating System
+
+64-bit Windows 10/11 or Ubuntu 18.04+
+
+(Compatible with Google Colab and cloud platforms)
+
+Development Environment
+
+Python 3.8 or later
+
+Machine Learning Frameworks
+
+XGBoost – for gradient boosting-based prediction
+
+RandomForest (Scikit-learn) – ensemble learning
+
+Explainability Framework
+
+SHAP (SHapley Additive exPlanations) – core method for interpretability
+
+Image & Plotting Libraries
+
+Matplotlib / Seaborn – for probability visualizations
+
+PDFKit / ReportLab (optional) – for generating downloadable PDF reports
+
+Interface Framework
+
+Gradio – modern, web-based UI with multipage layout
+
+Other Dependencies
+
+pandas
+
+numpy
+
+imbalanced-learn (SMOTE)
+
+deep-translator
+
+IDE / Environment
+
+Google Colab
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+<img width="818" height="444" alt="image" src="https://github.com/user-attachments/assets/91510614-814f-4e64-a55c-fdab4a4d1a17" />
+
 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
 #### Output1 - Name of the output
+<img width="1865" height="647" alt="image" src="https://github.com/user-attachments/assets/05d2fb5f-47a1-409c-b6a7-ef56311bb09d" />
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+
 
 #### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+<img width="1715" height="563" alt="image" src="https://github.com/user-attachments/assets/ecd9d01e-5f98-4b7b-9b82-8af24612768b" />
+
+
 
 Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+<img width="516" height="490" alt="image" src="https://github.com/user-attachments/assets/2097570e-f70a-4fee-a1c9-436002f6954c" />
+<img width="468" height="197" alt="image" src="https://github.com/user-attachments/assets/cd4a440c-1b05-4f26-aa6a-60e8301cca7a" />
+
+
 
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The Intelligent Agriculture Assistant significantly improves agricultural decision-making by providing farmers and agronomists with:
+Faster and more reliable soil fertility assessment
+Clear crop recommendations based on scientific data
+Fertilizer suggestions that reduce wastage and improve yield
+Transparent AI explanations for trust-building and educational value
+By integrating explainable AI, the system ensures users understand why a prediction was made, making it more trustworthy and suitable for real-world adoption.
+This project demonstrates the practical application of Machine Learning and Explainable AI in the agricultural domain, contributing toward smart farming, precision agriculture, and sustainable resource management.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
-
+1. H. Chandra et al., "Explainable AI for Soil Fertility Prediction," IEEE Access, 2023, doi: 10.1109/ACCESS.2023.3311827.
+2. A. Yenkikar, V. P. Mishra, M. Bali, and T. Ara, "An explainable AI-based hybrid machine learning model for interpretability and enhanced crop yield prediction," MethodsX, vol. 15, p. 103442, 2025.
+3. Dong et al., "Enhancing soil organic carbon prediction by unraveling the role of crop residue coverage using interpretable machine learning," Geoderma, vol. 455, p. 117225, 2025.
 
 
 
